@@ -2,7 +2,7 @@ version: "2"
 services:
   app:
     container_name: mysql_app
-    build: src/app/.
+    build: .
     links:
       - db
     ports:
